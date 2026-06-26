@@ -15,7 +15,7 @@ void solve()
         count+=c;
         n=n/10;
     }
-    cout<<count+((r-1)*(1+2+3+4))<<endl;
+    cout<<count+((r-1)*10)<<endl;
 }
 
 int32_t main() {
